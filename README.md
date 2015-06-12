@@ -1,6 +1,6 @@
 # archlinux-python2
 
-* [`latest-onbuild` (Dockerfile)](https://github.com/phedoreanu/archlinux-python2/blob/master/Dockerfile)
+* [`onbuild` (Dockerfile)](https://github.com/phedoreanu/archlinux-python2/blob/master/Dockerfile)
 
 Docker baseline image with latest Archlinux + python2 + mysql-python.
 

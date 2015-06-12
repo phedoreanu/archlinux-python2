@@ -1,4 +1,4 @@
-FROM l3iggs/archlinux
+FROM greyltc/archlinux
 
 MAINTAINER Adrian Fedoreanu <adrian.fedoreanu@gmail.com>
 
@@ -7,8 +7,15 @@ RUN pacman -Syyu --needed --noconfirm \
 	python2 \
 	python2-pip \
 	python2-setuptools \
+	python2-babel \
+	python2-pillow \
+	python2-pytz \
+	python2-six \
+	python-requests \
 	mysql-python \
-	git \
+	supervisor \
+	libjpeg-turbo \
+	libpng \
 	&& rm -f /var/cache/pacman/pkg/*.tar.xz
 
 WORKDIR /app
